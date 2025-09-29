@@ -1,7 +1,7 @@
 {
   "$GMSprite":"",
   "%Name":"_spr_icon",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":639,
   "bbox_left":320,
   "bbox_right":479,
