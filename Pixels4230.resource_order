@@ -18,10 +18,11 @@
   ],
   "ResourceOrderSettings":[
     {"name":"hit_box","order":2,"path":"objects/hit_box/hit_box.yy",},
+    {"name":"nextRoom_mirror","order":6,"path":"objects/nextRoom_mirror/nextRoom_mirror.yy",},
     {"name":"obj_camera","order":1,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"obj_wall","order":4,"path":"objects/obj_wall/obj_wall.yy",},
+    {"name":"Object5","order":5,"path":"objects/Object5/Object5.yy",},
     {"name":"_spr_icon","order":1,"path":"sprites/_spr_icon/_spr_icon.yy",},
-    {"name":"Sprite3","order":3,"path":"sprites/Sprite3/Sprite3.yy",},
     {"name":"Sprite4","order":2,"path":"sprites/Sprite4/Sprite4.yy",},
     {"name":"Sprite5","order":3,"path":"sprites/Sprite5/Sprite5.yy",},
   ],

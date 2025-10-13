@@ -38,33 +38,65 @@ if (h != 0 || v != 0) {
 if (dash_cooldown > 0) dash_cooldown--;
 if (invul_timer   > 0) invul_timer--;
 
-// Start DASH (Shift)
 if (keyboard_check_pressed(vk_shift) && dash_timer <= 0 && dash_cooldown <= 0) {
     var dx = (h != 0 || v != 0) ? h : dir_x;
     var dy = (h != 0 || v != 0) ? v : dir_y;
     var L  = point_distance(0,0,dx,dy); if (L == 0) L = 1;
     dx /= L; dy /= L;
 
-    hspeed = dx * dash_speed;
-    vspeed = dy * dash_speed;
+    // current dash direction vector
+    dash_vx = dx;
+    dash_vy = dy;
 
-    dash_timer    = dash_time;
-    dash_cooldown = dash_cd;
-    invul_timer   = max(invul_timer, dash_time); // remove if you don't want i-frames
+    dash_dist_left = dash_len;
+    dash_timer     = ceil(dash_len / dash_speed); // keep time in sync with distance
+    dash_cooldown  = dash_cd;
+    invul_timer    = max(invul_timer, dash_timer);
 }
 
-// If dashing, override normal movement this frame and exit early
+
+
 if (dash_timer > 0) {
     dash_timer--;
-    x += hspeed;
-    y += vspeed;
 
-    // keep your clamps
-    x = clamp(x, 0, room_width  - sprite_width);
-    y = clamp(y, 0, room_height - sprite_height);
+    // Desired direction from input; if none, keep current dash heading
+    var inx, iny;
+    if (h != 0 || v != 0) {
+        var il = point_distance(0,0,h,v);
+        inx = h / il; 
+        iny = v / il;
+    } else {
+        inx = dash_vx; 
+        iny = dash_vy;
+    }
 
-    exit; // skip your normal accel/friction code below while dashing
+    // Smoothly blend current heading toward desired (no hook/kink)
+    dash_vx = dash_vx * (1 - dash_turn_gain) + inx * dash_turn_gain;
+    dash_vy = dash_vy * (1 - dash_turn_gain) + iny * dash_turn_gain;
+
+    // Normalize (nlerp)
+    var nl = point_distance(0,0,dash_vx,dash_vy);
+    if (nl > 0) { dash_vx /= nl; dash_vy /= nl; } 
+    else { dash_vx = inx; dash_vy = iny; }
+
+    // Move at constant dash_speed
+    var step_dx = dash_vx * dash_speed;
+    var step_dy = dash_vy * dash_speed;
+
+    x += step_dx;
+    y += step_dy;
+
+    dash_dist_left -= point_distance(0,0,step_dx,step_dy);
+    if (dash_dist_left <= 0) dash_timer = 0;  // end exactly at dash_len
+
+    // Keep your clamps if you need them
+    x = clamp(x, 0, room_width  - 100);
+    y = clamp(y, 0, room_height - 100);
+
+    exit; // skip normal accel/friction while dashing
 }
+
+
 
 
 

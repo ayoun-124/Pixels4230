@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Player",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"nextRoom_mirror","path":"objects/nextRoom_mirror/nextRoom_mirror.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"nextRoom_mirror",
+  "eventList":[],
   "managed":true,
-  "name":"Player",
+  "name":"nextRoom_mirror",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,7 +26,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
     "name":"_spr_icon",
     "path":"sprites/_spr_icon/_spr_icon.yy",
