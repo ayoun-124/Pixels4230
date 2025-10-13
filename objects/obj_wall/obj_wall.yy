@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"hit_box",
+  "%Name":"obj_wall",
   "eventList":[],
   "managed":true,
-  "name":"hit_box",
+  "name":"obj_wall",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite4",
-    "path":"sprites/Sprite4/Sprite4.yy",
+    "name":"Wallpaper2",
+    "path":"sprites/Wallpaper2/Wallpaper2.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

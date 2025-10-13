@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"hit_box",
+  "%Name":"broken_mirror",
   "eventList":[],
   "managed":true,
-  "name":"hit_box",
+  "name":"broken_mirror",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite4",
-    "path":"sprites/Sprite4/Sprite4.yy",
+    "name":"spr_broken_mirror",
+    "path":"sprites/spr_broken_mirror/spr_broken_mirror.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

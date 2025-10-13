@@ -1,6 +1,8 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"broken_mirror","order":2,"path":"objects/broken_mirror/broken_mirror.yy",},
+    {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
     {"name":"Room3","order":3,"path":"rooms/Room3/Room3.yy",},
     {"name":"Room4","order":5,"path":"rooms/Room4/Room4.yy",},
@@ -13,6 +15,8 @@
     {"name":"BottomeEdge_void","order":8,"path":"sprites/BottomeEdge_void/BottomeEdge_void.yy",},
     {"name":"BR_Void","order":7,"path":"sprites/BR_Void/BR_Void.yy",},
     {"name":"LeftEdge_void","order":6,"path":"sprites/LeftEdge_void/LeftEdge_void.yy",},
+    {"name":"spr_broken_mirror","order":19,"path":"sprites/spr_broken_mirror/spr_broken_mirror.yy",},
+    {"name":"Sprite22","order":1,"path":"sprites/Sprite22/Sprite22.yy",},
     {"name":"TL_Void","order":5,"path":"sprites/TL_Void/TL_Void.yy",},
     {"name":"TopEdge_Void","order":4,"path":"sprites/TopEdge_Void/TopEdge_Void.yy",},
     {"name":"TR_Void1","order":3,"path":"sprites/TR_Void1/TR_Void1.yy",},
