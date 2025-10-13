@@ -9,6 +9,13 @@ dash_time = 30;      // frames the dash lasts
 dash_cd = 24;       // cooldown in frames
 dash_timer = 0;
 dash_cooldown = 0;
+dash_len = 500;
+
+dash_turn_gain  = 0.18;   // 0..1; lower = smoother arc, higher = snappier
+dash_vx = 0; 
+dash_vy = 0;
+dash_dist_left = 0;
+
 
 // last non-zero move dir (for dashing from standstill)
 dir_x = 1; 
