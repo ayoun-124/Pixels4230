@@ -122,9 +122,5 @@ y += vspeed;
 x = clamp(x, 50, room_width - 100);
 y = clamp(y, 100, room_height - 100);
 
-if (keyboard_check_pressed(vk_space)) {
-    var hb = instance_create_layer(x, y, "Instances", hit_box);
-    hb.owner = id;
-    hb.dir = facing; // assume facing is 1 or -1
-}
+
 
