@@ -19,6 +19,7 @@
     {"name":"spr_broken_mirror","order":19,"path":"sprites/spr_broken_mirror/spr_broken_mirror.yy",},
     {"name":"spr_ghost","order":21,"path":"sprites/spr_ghost/spr_ghost.yy",},
     {"name":"spr_player_idle","order":20,"path":"sprites/spr_player_idle/spr_player_idle.yy",},
+    {"name":"Spr_Walking","order":22,"path":"sprites/Spr_Walking/Spr_Walking.yy",},
     {"name":"Sprite22","order":1,"path":"sprites/Sprite22/Sprite22.yy",},
     {"name":"TL_Void","order":5,"path":"sprites/TL_Void/TL_Void.yy",},
     {"name":"TopEdge_Void","order":4,"path":"sprites/TopEdge_Void/TopEdge_Void.yy",},

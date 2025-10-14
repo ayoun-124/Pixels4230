@@ -59,6 +59,7 @@
     {"id":{"name":"spr_ghost","path":"sprites/spr_ghost/spr_ghost.yy",},},
     {"id":{"name":"spr_hitbox","path":"sprites/spr_hitbox/spr_hitbox.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
+    {"id":{"name":"Spr_Walking","path":"sprites/Spr_Walking/Spr_Walking.yy",},},
     {"id":{"name":"Sprite22","path":"sprites/Sprite22/Sprite22.yy",},},
     {"id":{"name":"Tile","path":"sprites/Tile/Tile.yy",},},
     {"id":{"name":"TL_Void","path":"sprites/TL_Void/TL_Void.yy",},},
