@@ -55,6 +55,7 @@
     {"id":{"name":"BR_Void","path":"sprites/BR_Void/BR_Void.yy",},},
     {"id":{"name":"LeftEdge_void","path":"sprites/LeftEdge_void/LeftEdge_void.yy",},},
     {"id":{"name":"spr_broken_mirror","path":"sprites/spr_broken_mirror/spr_broken_mirror.yy",},},
+    {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
     {"id":{"name":"Sprite22","path":"sprites/Sprite22/Sprite22.yy",},},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
     {"id":{"name":"Tile","path":"sprites/Tile/Tile.yy",},},
