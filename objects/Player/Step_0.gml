@@ -27,6 +27,13 @@ if (keyboard_check(ord("S"))) v += 1;
 
 facing = image_xscale;
 
+if (keyboard_check(ord("J"))){
+	//Load attack sprite
+	
+	//Wait 	
+	instance_create_layer(x, y, "Instances", obj_player_hitbox);
+}
+
 // Remember last non-zero move direction (used if you dash while idle)
 if (h != 0 || v != 0) {
     var L = point_distance(0,0,h,v);
@@ -121,6 +128,9 @@ y += vspeed;
 
 x = clamp(x, 50, room_width - 100);
 y = clamp(y, 100, room_height - 100);
+
+
+
 
 
 
