@@ -11,8 +11,8 @@ if (instance_exists(target)) {
     target_y = clamp(target_y, 0, room_height - camera_get_view_height(cam));
 
     // Smooth follow (lerp makes it glide)
-    var cx = lerp(camera_get_view_x(cam), target_x, 0.1);
-    var cy = lerp(camera_get_view_y(cam), target_y, 0.1);
+    var cx = lerp(camera_get_view_x(cam), target_x, 0.3);
+    var cy = lerp(camera_get_view_y(cam), target_y, 0.3);
 
     camera_set_view_pos(cam, cx, cy);
 }

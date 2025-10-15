@@ -126,7 +126,7 @@ if (v == 0) vspeed = lerp(vspeed, 0, friction1);
 x += hspeed;
 y += vspeed;
 
-x = clamp(x, 50, room_width - 100);
+x = clamp(x, 50, room_width);
 y = clamp(y, 100, room_height - 100);
 
 
