@@ -1,6 +1,6 @@
 // Get room dimensions
-var cam_w = 1920;   // camera width
-var cam_h = 1080;   // camera height
+var cam_w = 2000;   // camera width
+var cam_h = 2000;   // camera height
 
 // Create a new camera
 cam = camera_create_view(0, 0, cam_w, cam_h, 0, noone, 0, 0);
