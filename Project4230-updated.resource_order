@@ -13,6 +13,7 @@
     {"name":"Obj_Block8","order":13,"path":"objects/Obj_Block8/Obj_Block8.yy",},
     {"name":"Obj_Block9","order":14,"path":"objects/Obj_Block9/Obj_Block9.yy",},
     {"name":"obj_ghost","order":5,"path":"objects/obj_ghost/obj_ghost.yy",},
+    {"name":"obj_ghost2","order":17,"path":"objects/obj_ghost2/obj_ghost2.yy",},
     {"name":"obj_player_hitbox","order":16,"path":"objects/obj_player_hitbox/obj_player_hitbox.yy",},
     {"name":"obj_wall","order":3,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"Player","order":1,"path":"objects/Player/Player.yy",},
