@@ -38,7 +38,7 @@
     {"name":"spr_player_hitbox","order":25,"path":"sprites/spr_player_hitbox/spr_player_hitbox.yy",},
     {"name":"spr_player_idle","order":21,"path":"sprites/spr_player_idle/spr_player_idle.yy",},
     {"name":"Spr_Walking","order":23,"path":"sprites/Spr_Walking/Spr_Walking.yy",},
-    {"name":"Sprite27","order":15,"path":"sprites/Sprite27/Sprite27.yy",},
+    {"name":"Sprite27","order":27,"path":"sprites/Sprite27/Sprite27.yy",},
     {"name":"TL_Void","order":7,"path":"sprites/TL_Void/TL_Void.yy",},
     {"name":"TopEdge_Void","order":6,"path":"sprites/TopEdge_Void/TopEdge_Void.yy",},
     {"name":"TR_Void1","order":5,"path":"sprites/TR_Void1/TR_Void1.yy",},
