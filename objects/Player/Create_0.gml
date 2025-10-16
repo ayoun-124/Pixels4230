@@ -2,6 +2,11 @@
 global.player = id;
 hp = 100
 
+/// obj_player: Create
+enum State { Idle, Attack }
+state       = State.Idle;
+hit_pending = false;
+
 
 // --- Dash vars ---
 dash_speed = 12;     // faster than max_speed

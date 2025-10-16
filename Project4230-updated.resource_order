@@ -34,6 +34,7 @@
     {"name":"spr_broken_mirror","order":20,"path":"sprites/spr_broken_mirror/spr_broken_mirror.yy",},
     {"name":"spr_ghost","order":22,"path":"sprites/spr_ghost/spr_ghost.yy",},
     {"name":"spr_hitbox","order":1,"path":"sprites/spr_hitbox/spr_hitbox.yy",},
+    {"name":"spr_player_attack","order":26,"path":"sprites/spr_player_attack/spr_player_attack.yy",},
     {"name":"spr_player_hitbox","order":25,"path":"sprites/spr_player_hitbox/spr_player_hitbox.yy",},
     {"name":"spr_player_idle","order":21,"path":"sprites/spr_player_idle/spr_player_idle.yy",},
     {"name":"Spr_Walking","order":23,"path":"sprites/Spr_Walking/Spr_Walking.yy",},

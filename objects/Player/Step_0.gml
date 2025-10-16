@@ -27,12 +27,40 @@ if (keyboard_check(ord("S"))) v += 1;
 
 facing = image_xscale;
 
-if (keyboard_check(ord("J"))){
-	//Load attack sprite
-	
-	//Wait 	
-	instance_create_layer(x, y, "Instances", obj_player_hitbox);
+/// secondary attack
+if (keyboard_check_pressed(ord("J")) && state != State.Attack) {
+    state        = State.Attack;
+    sprite_index = spr_player_attack;
+    image_index  = 0;
+    image_speed  = 0.1;      // subimages per step
+    hit_pending  = true;
+
+    // Fire the hitbox when we reach a target subimage:
+    var target_frame = 2;                      // <- put your desired frame here
+    var steps_until  = ceil((target_frame - image_index) / max(image_speed, 0.0001));
+    alarm[0] = max(1, steps_until);
 }
+
+/// primary attack
+if (keyboard_check_pressed(ord("H")) && state != State.Attack) {
+    state        = State.Attack;
+    sprite_index = spr_player_attack;
+    image_index  = 0;
+    image_speed  = 0.8;
+    hit_pending  = true;
+
+	//delay hitbox for swing animation
+    var delay_seconds = 0.75;
+    var fps_target    = game_get_speed(gamespeed_fps);
+    alarm[0] = max(1, round(delay_seconds * fps_target));
+}
+
+
+if (state == State.Attack && !hit_pending) {
+	sprite_index = spr_player_idle;
+	state = State.Idle
+}
+
 
 // Remember last non-zero move direction (used if you dash while idle)
 if (h != 0 || v != 0) {
