@@ -74,6 +74,7 @@
     {"id":{"name":"spr_player_attack","path":"sprites/spr_player_attack/spr_player_attack.yy",},},
     {"id":{"name":"spr_player_hitbox","path":"sprites/spr_player_hitbox/spr_player_hitbox.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
+    {"id":{"name":"spr_upDown","path":"sprites/spr_upDown/spr_upDown.yy",},},
     {"id":{"name":"Spr_Walking","path":"sprites/Spr_Walking/Spr_Walking.yy",},},
     {"id":{"name":"Sprite27","path":"sprites/Sprite27/Sprite27.yy",},},
     {"id":{"name":"Tile","path":"sprites/Tile/Tile.yy",},},

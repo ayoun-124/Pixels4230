@@ -37,6 +37,7 @@
     {"name":"spr_player_attack","order":26,"path":"sprites/spr_player_attack/spr_player_attack.yy",},
     {"name":"spr_player_hitbox","order":25,"path":"sprites/spr_player_hitbox/spr_player_hitbox.yy",},
     {"name":"spr_player_idle","order":21,"path":"sprites/spr_player_idle/spr_player_idle.yy",},
+    {"name":"spr_upDown","order":28,"path":"sprites/spr_upDown/spr_upDown.yy",},
     {"name":"Spr_Walking","order":23,"path":"sprites/Spr_Walking/Spr_Walking.yy",},
     {"name":"Sprite27","order":27,"path":"sprites/Sprite27/Sprite27.yy",},
     {"name":"TL_Void","order":7,"path":"sprites/TL_Void/TL_Void.yy",},

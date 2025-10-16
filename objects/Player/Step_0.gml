@@ -5,24 +5,33 @@ var friction1 = 0.2;
 
 
 
+
 var h = 0;
 var v = 0;
-if (keyboard_check(ord("A"))){
+if (keyboard_check(ord("A")) && state != State.Attack){
 	
 	h -= 1;
 	image_xscale = -1;
+	sprite_index  = Spr_Walking;
 	
 }
-if (keyboard_check(ord("D"))){
+if (keyboard_check(ord("D")) && state != State.Attack){
+	
 	h += 1;
 	image_xscale = 1;
-}
-if (keyboard_check(ord("W"))){
-	v -= 1;
-		
+	sprite_index  = Spr_Walking;
 	
 }
-if (keyboard_check(ord("S"))) v += 1;
+if (keyboard_check(ord("W")) && state != State.Attack){
+	
+	v -= 1;
+	
+}
+if (keyboard_check(ord("S")) && state != State.Attack){
+	v += 1;
+	sprite_index = spr_upDown;
+	
+}
 
 
 facing = image_xscale;
