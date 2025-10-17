@@ -10,6 +10,7 @@
     {"name":"Obj_Block7","order":12,"path":"objects/Obj_Block7/Obj_Block7.yy",},
     {"name":"Obj_Block8","order":13,"path":"objects/Obj_Block8/Obj_Block8.yy",},
     {"name":"Obj_Block9","order":14,"path":"objects/Obj_Block9/Obj_Block9.yy",},
+    {"name":"obj_controller","order":18,"path":"objects/obj_controller/obj_controller.yy",},
     {"name":"obj_ghost","order":5,"path":"objects/obj_ghost/obj_ghost.yy",},
     {"name":"obj_ghost2","order":17,"path":"objects/obj_ghost2/obj_ghost2.yy",},
     {"name":"Obj_GlassShard","order":19,"path":"objects/Obj_GlassShard/Obj_GlassShard.yy",},
