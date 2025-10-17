@@ -95,7 +95,6 @@
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
     {"id":{"name":"spr_upDown","path":"sprites/spr_upDown/spr_upDown.yy",},},
     {"id":{"name":"Spr_Walking","path":"sprites/Spr_Walking/Spr_Walking.yy",},},
-    {"id":{"name":"Sprite32","path":"sprites/Sprite32/Sprite32.yy",},},
     {"id":{"name":"Tile","path":"sprites/Tile/Tile.yy",},},
     {"id":{"name":"TL_Void","path":"sprites/TL_Void/TL_Void.yy",},},
     {"id":{"name":"TopEdge_Void","path":"sprites/TopEdge_Void/TopEdge_Void.yy",},},

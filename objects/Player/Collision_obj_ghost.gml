@@ -8,7 +8,16 @@ if ( state == State.Attack ){
 	instance_destroy(other);
 	
 }else {
-	instance_destroy()
-	//restart game
-	game_restart()
+	audio_play_sound(snd_health_loss, 1, false);
+	global.health -= 10;
+	
+	
+	
 }
+
+
+if (global.health <= 0){
+		instance_destroy();
+		//restart game
+		room_restart();
+	}

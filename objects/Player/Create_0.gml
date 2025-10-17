@@ -1,5 +1,6 @@
 
 global.player = id;
+global.health = 100;
 hp = 100
 
 /// obj_player: Create
