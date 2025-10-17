@@ -76,7 +76,10 @@ if (keyboard_check_pressed(ord("H")) && state != State.Attack) {
 	//delay hitbox for swing animation
     var delay_seconds = 0.50;
     var fps_target    = game_get_speed(gamespeed_fps);
-    alarm[0] = max(1, round(delay_seconds * fps_target));
+	
+	//moving this line outside of the alarm 0 event fixed the issue where to hitbox wouldnt spawn
+	//instance_create_layer(x, y, "Instances", obj_player_hitbox);
+    alarm[0] = room_speed/5;
 }
 
 
