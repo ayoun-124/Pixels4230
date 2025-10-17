@@ -1,13 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_boss",
+  "%Name":"obj_boss_orb",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_boss",
+  "name":"obj_boss_orb",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -32,12 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_boss",
-    "path":"sprites/spr_boss/spr_boss.yy",
+    "name":"spr_orb",
+    "path":"sprites/spr_orb/spr_orb.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_boss",
-    "path":"sprites/spr_boss/spr_boss.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
