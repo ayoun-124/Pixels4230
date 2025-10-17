@@ -167,7 +167,7 @@ x += hspeed;
 y += vspeed;
 
 x = clamp(x, 50, room_width);
-y = clamp(y, 100, room_height - 100);
+y = clamp(y, bbox_top, room_height - 100);
 
 
 
