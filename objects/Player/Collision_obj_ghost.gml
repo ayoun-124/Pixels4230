@@ -7,5 +7,5 @@ if ( state == State.Attack ){
 }else {
 	instance_destroy()
 	//restart game
-	game_restart()
+	room_restart()
 }

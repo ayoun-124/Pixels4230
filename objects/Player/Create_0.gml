@@ -28,3 +28,10 @@ dir_y = 0;
 
 // (optional) i-frames timer if you want invulnerability during dash
 invul_timer = 0;
+
+
+
+
+
+
+

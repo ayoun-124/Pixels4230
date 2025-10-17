@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Block3",
+  "%Name":"Obj_GlassShard",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Block3",
+  "name":"Obj_GlassShard",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_Block",
-    "path":"sprites/Spr_Block/Spr_Block.yy",
+    "name":"Spr_GlassShard",
+    "path":"sprites/Spr_GlassShard/Spr_GlassShard.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
