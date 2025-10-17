@@ -64,3 +64,20 @@ function gc_try_restore_player_pos(_player) {
 	_player.y = p.y;
     return true;
 }
+
+
+
+global.gc.shards_collected_map = ds_map_create();
+
+function shard_make_id(_inst) {
+    // room name + original placement coords → stable across revisits
+    return room_get_name(room) + ":" + string(_inst.xstart) + "," + string(_inst.ystart);
+}
+
+function gc_mark_shard_collected(key) {
+    ds_map_set(global.gc.shards_collected_map, key, true); // create or overwrite
+}
+
+function gc_is_shard_collected(key) {
+    return ds_map_exists(global.gc.shards_collected_map, key);
+}

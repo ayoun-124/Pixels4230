@@ -1,7 +1,5 @@
-// obj_shard_pickup: Collision with obj_player
-if (!collected) {
-    collected = true; // guard against double triggers
-    obj_controller.gc_add_item(1);
-    // audio_play_sound(snd_pickup, 1, false); 
+
+
+    obj_controller.gc_mark_shard_collected(key);  // remember forever (this run)
+    global.gc.items_collected += 1;    // update your HUD counter, if you track one
     instance_destroy();
-}
