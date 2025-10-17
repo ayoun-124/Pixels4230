@@ -1,10 +1,3 @@
-/// Persistent run state
-global.gc = {
-    health: 100,
-    items_collected: 0,
-    ghosts_killed: 0,
-    health_max: 100
-};
 
 // convenience helpers
 function gc_reset_run() {
