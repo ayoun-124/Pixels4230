@@ -45,6 +45,7 @@ if (keyboard_check_pressed(ord("J")) && state != State.Attack) {
     image_speed  = 0.1;      // subimages per step
     hit_pending  = true;
 
+	
     // Fire the hitbox when we reach a target subimage:
     var target_frame = 2;                      // <- put your desired frame here
     var steps_until  = ceil((target_frame - image_index) / max(image_speed, 0.0001));
@@ -59,6 +60,8 @@ if (keyboard_check_pressed(ord("H")) && state != State.Attack) {
     image_speed  = 0.8;
     hit_pending  = true;
 
+	audio_play_sound(snd_swing, 1, false);
+	alarm[1] = room_speed / 2;
 	//delay hitbox for swing animation
     var delay_seconds = 0.50;
     var fps_target    = game_get_speed(gamespeed_fps);
