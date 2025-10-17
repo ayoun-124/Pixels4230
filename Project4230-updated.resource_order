@@ -51,7 +51,7 @@
     {"name":"Spr_GlassShard","order":28,"path":"sprites/Spr_GlassShard/Spr_GlassShard.yy",},
     {"name":"spr_hitbox","order":1,"path":"sprites/spr_hitbox/spr_hitbox.yy",},
     {"name":"Spr_Piano","order":31,"path":"sprites/Spr_Piano/Spr_Piano.yy",},
-    {"name":"spr_player_attack_2","order":32,"path":"sprites/spr_player_attack_2/spr_player_attack_2.yy",},
+    {"name":"spr_player_attack_2","order":29,"path":"sprites/spr_player_attack_2/spr_player_attack_2.yy",},
     {"name":"spr_player_attack","order":26,"path":"sprites/spr_player_attack/spr_player_attack.yy",},
     {"name":"spr_player_hitbox","order":25,"path":"sprites/spr_player_hitbox/spr_player_hitbox.yy",},
     {"name":"spr_player_idle","order":21,"path":"sprites/spr_player_idle/spr_player_idle.yy",},

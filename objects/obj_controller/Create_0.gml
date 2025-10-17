@@ -83,3 +83,7 @@ function gc_is_shard_collected(key) {
 }
 
 
+
+
+global.godMode = false;
+godMode_timer = 0; // counts down in steps (frames)

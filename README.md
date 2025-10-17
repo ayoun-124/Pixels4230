@@ -38,8 +38,7 @@ Fractured is a top-down adventure quest game where players navigate through room
 ## Cheat Codes
 Use this cheat code to modify your gameplay 
 
--**Infinte Health** - Temporarily gives inifite health to the character.
-
+-**Infinte Health** - Temporarily gives inifite health to the character when "G" is pressed.
 
 
 

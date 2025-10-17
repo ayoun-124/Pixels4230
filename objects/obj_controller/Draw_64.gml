@@ -23,3 +23,17 @@ draw_text(pad, dy + 28,    "Ghosts: " + string(global.gc.ghosts_killed));
 // Shards counter as “1/5”
 var shards_str = string(global.gc.items_collected) + "/" + string(5);
 draw_text(pad, dy + 56,    "Shards: " + shards_str);
+
+
+
+
+
+
+if (global.godMode) {
+    draw_set_color(c_yellow);
+    draw_text(16, 80, "GOD MODE: " + string(round(godMode_timer / room_speed)) + "s");
+} else {
+    draw_set_color(c_white);
+    draw_text(16, 80, "GOD MODE: OFF");
+}
+
