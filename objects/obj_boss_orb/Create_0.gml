@@ -1,6 +1,9 @@
-
 owner   = global.boss;   // boss id
-orb_ang = 0;       // deg
-orb_r   = 500;      // radius
-orb_dps = 2.5;     // deg/step
-image_angle = 0;              // purely cosmetic
+orb_r   = owner.sprite_width/3;      // radius
+
+
+
+//init in different points of the unit circle
+n = irandom(9);
+x = x + cos(n) * orb_r;
+y = y + sin(n) * orb_r;

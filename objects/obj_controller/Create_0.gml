@@ -7,7 +7,7 @@ global.gc = {
     items_collected: 0,
     ghosts_killed: 0,
     health_max: 100,
-	
+	items_needed: 5,
 };
 
 global.game = {
@@ -15,6 +15,7 @@ global.game = {
     level: 1,
     score: 0,
     lives: 3,
+	orb_count: 0,
     // any other global flags/data you want
 };
 
@@ -87,6 +88,17 @@ function gc_is_shard_collected(key) {
 
 global.godMode = false;
 godMode_timer = 0; // counts down in steps (frames)
+
+
+// Safe distance to player (returns -1 if no player)
+function dist_to_player() {
+    if (instance_exists(global.player)) {
+        return point_distance(x, y, global.player.x, global.player.y);
+    }
+    return -1;
+}
+
+
 
 
 

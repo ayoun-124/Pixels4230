@@ -4,8 +4,8 @@ state = 0;
 target = global.player ?? noone;
 
 // Orbit ring
-orb_count  = 4;
-orb_radius = 500;
+orb_count  = 8;
+orb_radius = 64;
 orb_speed  = 2.5;   // deg/step CCW
 orb_sprite = spr_orb;
 
@@ -18,6 +18,7 @@ shoot_cd     = irandom_range(shoot_cd_min, shoot_cd_max);
 orbs = [];
 for (var i = 0; i < orb_count; i++) {
     var ang = i * (360 / orb_count);
+	
     var o = instance_create_layer(x, y, "Instances", obj_boss_orb);
     o.owner       = id;
     o.orb_ang     = ang;

@@ -20,14 +20,19 @@ function gc_add_health(n) {
 
 function gc_take_damage(n) {
     global.gc.health = clamp(global.gc.health - n, 0, global.gc.health_max);
+	audio_play_sound(snd_health_loss, 1, false);
     if (global.gc.health <= 0) {
         // handle game over here if you want
         // room_restart(); or set a GameOver state later
+		game_restart();
     }
 }
 
 
+if (keyboard_check_pressed(ord("N"))) {
+	room_goto_next();
 
+}
 
 
 

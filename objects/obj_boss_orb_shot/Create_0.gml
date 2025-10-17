@@ -1,0 +1,1 @@
+global.game.orb_count += 1;

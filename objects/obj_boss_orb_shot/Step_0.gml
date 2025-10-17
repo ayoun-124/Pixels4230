@@ -5,6 +5,9 @@ if (instance_exists(Player)) {
 
 
         direction = point_direction(x, y, Player.x, Player.y);
-        speed = 4; 
+        speed = 6; 
     }
 }
+
+x = clamp(x, 0, room_width)
+y = clamp(y, 0, room_height)

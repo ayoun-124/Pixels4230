@@ -1,8 +1,25 @@
 
 // (Optional) chase/phase logic here…
+var p = instance_nearest(x, y, Player);
+if (p != noone) {
+    var stop_radius = 48;          // don’t stand on top of the player
+    var dist = point_distance(x, y, p.x, p.y);
+    if (dist > stop_radius) {
+        var dir = point_direction(x, y, p.x, p.y);
+        speed = 1.2;           // pixels/step (slow creep)
+        move_towards_point(p.x, p.y, speed);
+        
+    } else {
+        speed = 0;
+    }
+}
+
+
+
+var d = obj_controller.dist_to_player();
 
 // Fire a cloned orb projectile
-if (--shoot_cd <= 0 && is_array(orbs) && array_length(orbs) > 0) {
+if (--shoot_cd <= 0 && is_array(orbs) && array_length(orbs) > 0 && global.game.orb_count <= 10 ) {
     var src = orbs[ irandom(array_length(orbs)-1) ];
     if (instance_exists(src)) {
         var dir = instance_exists(global.player)
