@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"fnt_ui","order":1,"path":"fonts/fnt_ui/fnt_ui.yy",},
     {"name":"broken_mirror","order":4,"path":"objects/broken_mirror/broken_mirror.yy",},
     {"name":"hit_box","order":2,"path":"objects/hit_box/hit_box.yy",},
     {"name":"Obj_Block1","order":6,"path":"objects/Obj_Block1/Obj_Block1.yy",},

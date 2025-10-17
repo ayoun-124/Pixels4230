@@ -36,6 +36,7 @@
   "name":"Project4230-updated",
   "resources":[
     {"id":{"name":"fnt_shards","path":"fonts/fnt_shards/fnt_shards.yy",},},
+    {"id":{"name":"fnt_ui","path":"fonts/fnt_ui/fnt_ui.yy",},},
     {"id":{"name":"broken_mirror","path":"objects/broken_mirror/broken_mirror.yy",},},
     {"id":{"name":"hit_box","path":"objects/hit_box/hit_box.yy",},},
     {"id":{"name":"Obj_Block1","path":"objects/Obj_Block1/Obj_Block1.yy",},},
