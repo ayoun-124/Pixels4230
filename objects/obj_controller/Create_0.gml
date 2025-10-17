@@ -81,3 +81,5 @@ function gc_mark_shard_collected(key) {
 function gc_is_shard_collected(key) {
     return ds_map_exists(global.gc.shards_collected_map, key);
 }
+
+

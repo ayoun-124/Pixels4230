@@ -16,6 +16,7 @@
     {"name":"inst_403CDD88","path":"rooms/StartRoom/StartRoom.yy",},
     {"name":"inst_4D524D2A","path":"rooms/StartRoom/StartRoom.yy",},
     {"name":"inst_77F7A22C","path":"rooms/StartRoom/StartRoom.yy",},
+    {"name":"inst_7CEF22E3","path":"rooms/StartRoom/StartRoom.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -118,6 +119,7 @@
         {"$GMRInstance":"v2","%Name":"inst_1512D530","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1512D530","objectId":{"name":"hit_box","path":"objects/hit_box/hit_box.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5416667,"scaleY":1.0,"x":3008.0,"y":640.0,},
         {"$GMRInstance":"v2","%Name":"inst_403CDD88","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_403CDD88","objectId":{"name":"hit_box","path":"objects/hit_box/hit_box.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5416667,"scaleY":1.0,"x":3008.0,"y":1568.0,},
         {"$GMRInstance":"v2","%Name":"inst_4D524D2A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4D524D2A","objectId":{"name":"hit_box","path":"objects/hit_box/hit_box.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":-89.412094,"scaleX":0.20833334,"scaleY":1.5,"x":2144.0,"y":1856.0,},
+        {"$GMRInstance":"v2","%Name":"inst_7CEF22E3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7CEF22E3","objectId":{"name":"Obj_musicController","path":"objects/Obj_musicController/Obj_musicController.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2016.0,"y":320.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_2","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":135,"SerialiseWidth":240,"TileCompressedData":[
           -2403,-2147483648,133,48,49,50,51,52,53,54,55,48,49,50,51,52,53,54,55,48,49,50,51,52,53,54,55,48,49,
@@ -730,7 +732,7 @@
   },
   "sequenceId":null,
   "views":[
-    {"hborder":250,"hport":2160,"hspeed":-1,"hview":1080,"inherit":false,"objectId":{"name":"Player","path":"objects/Player/Player.yy",},"vborder":250,"visible":true,"vspeed":-1,"wport":3840,"wview":1920,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":250,"hport":2160,"hspeed":-1,"hview":1080,"inherit":false,"objectId":{"name":"Player","path":"objects/Player/Player.yy",},"vborder":250,"visible":true,"vspeed":-1,"wport":3840,"wview":1920,"xport":0,"xview":0,"yport":0,"yview":250,},
     {"hborder":32,"hport":400,"hspeed":-1,"hview":2160,"inherit":false,"objectId":null,"vborder":32,"visible":true,"vspeed":-1,"wport":700,"wview":3840,"xport":3080,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},

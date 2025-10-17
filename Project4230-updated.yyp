@@ -52,6 +52,7 @@
     {"id":{"name":"obj_ghost2","path":"objects/obj_ghost2/obj_ghost2.yy",},},
     {"id":{"name":"Obj_GlassShard","path":"objects/Obj_GlassShard/Obj_GlassShard.yy",},},
     {"id":{"name":"obj_lamp_cone","path":"objects/obj_lamp_cone/obj_lamp_cone.yy",},},
+    {"id":{"name":"Obj_musicController","path":"objects/Obj_musicController/Obj_musicController.yy",},},
     {"id":{"name":"Obj_Piano","path":"objects/Obj_Piano/Obj_Piano.yy",},},
     {"id":{"name":"obj_player_hitbox","path":"objects/obj_player_hitbox/obj_player_hitbox.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
