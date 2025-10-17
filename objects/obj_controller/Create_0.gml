@@ -99,6 +99,12 @@ function dist_to_player() {
 }
 
 
+flash_spr   = spr_red_hit;  // your overlay sprite
+flash_timer = 0;              // counts down
+flash_dur   = round(room_speed * 0.08); // ~0.08s flash
+flash_max_a = 0.7;            // peak opacity
+
+
 
 
 

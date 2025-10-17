@@ -25,6 +25,19 @@ var shards_str = string(global.gc.items_collected) + "/" + string(global.gc.item
 draw_text(pad, dy + 56,    "Shards: " + shards_str);
 
 
+if (flash_timer > 0) {
+    var gw = display_get_gui_width();
+    var gh = display_get_gui_height();
+
+    var t = flash_timer / flash_dur;     // 1 → 0
+    var a = flash_max_a * t * t;         // ease-out
+
+    draw_set_alpha(a);
+    draw_sprite_stretched(flash_spr, 0, 0, 0, gw, gh); // use subimage 0
+    draw_set_alpha(1);
+
+    flash_timer--;
+}
 
 
 

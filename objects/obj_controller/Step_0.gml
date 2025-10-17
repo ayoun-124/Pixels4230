@@ -19,6 +19,7 @@ function gc_add_health(n) {
 }
 
 function gc_take_damage(n) {
+	flash_timer = flash_dur;
     global.gc.health = clamp(global.gc.health - n, 0, global.gc.health_max);
 	audio_play_sound(snd_health_loss, 1, false);
     if (global.gc.health <= 0) {
