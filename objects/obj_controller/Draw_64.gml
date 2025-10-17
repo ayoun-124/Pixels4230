@@ -5,14 +5,27 @@ draw_set_font(fnt_ui);
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
-// --- Health bar (optional, slightly bigger)
-var hp = global.gc.health, hpm = max(1, global.gc.health_max);
-var bar_w = 220, bar_h = 18;
+// Build once (e.g., in controller Create) and reuse:
+if (!variable_global_exists("hp_sprites")) {
+    global.hp_sprites = [
+        spr_hp3, spr_hp2, spr_hp1, spr_hp0
+    ];
+}
 
-draw_set_color(c_white);
-draw_rectangle(pad-2, pad-2, pad+bar_w+2, pad+bar_h+2, false);
-draw_set_color(c_red);
-draw_rectangle(pad, pad, pad + bar_w * (hp/hpm), pad + bar_h, false);
+// --- Sprite health bar (array) ---
+var bx = pad, by = pad;
+var steps  = array_length(global.hp_sprites) - 1;       // 10 here
+var ratio  = clamp(global.gc.health / max(1, global.gc.health_max), 0, 1);
+var idx    = round(ratio * steps);                      // 0..steps
+var spr    = global.hp_sprites[idx];
+
+draw_sprite(spr, 0, bx, by);
+
+// for layout below:
+var bar_w = sprite_get_width(spr);
+var bar_h = sprite_get_height(spr);
+
+
 
 // --- Labels
 draw_set_color(c_white);
