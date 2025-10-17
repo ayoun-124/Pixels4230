@@ -82,6 +82,7 @@
     {"id":{"name":"BR_Void","path":"sprites/BR_Void/BR_Void.yy",},},
     {"id":{"name":"LeftEdge_void","path":"sprites/LeftEdge_void/LeftEdge_void.yy",},},
     {"id":{"name":"Spr_Block","path":"sprites/Spr_Block/Spr_Block.yy",},},
+    {"id":{"name":"spr_boss","path":"sprites/spr_boss/spr_boss.yy",},},
     {"id":{"name":"spr_broken_mirror","path":"sprites/spr_broken_mirror/spr_broken_mirror.yy",},},
     {"id":{"name":"spr_cone_hit_box","path":"sprites/spr_cone_hit_box/spr_cone_hit_box.yy",},},
     {"id":{"name":"spr_ghost","path":"sprites/spr_ghost/spr_ghost.yy",},},

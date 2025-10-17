@@ -43,6 +43,7 @@
     {"name":"BR_Void","order":9,"path":"sprites/BR_Void/BR_Void.yy",},
     {"name":"LeftEdge_void","order":8,"path":"sprites/LeftEdge_void/LeftEdge_void.yy",},
     {"name":"Spr_Block","order":24,"path":"sprites/Spr_Block/Spr_Block.yy",},
+    {"name":"spr_boss","order":31,"path":"sprites/spr_boss/spr_boss.yy",},
     {"name":"spr_broken_mirror","order":20,"path":"sprites/spr_broken_mirror/spr_broken_mirror.yy",},
     {"name":"spr_cone_hit_box","order":30,"path":"sprites/spr_cone_hit_box/spr_cone_hit_box.yy",},
     {"name":"spr_ghost","order":22,"path":"sprites/spr_ghost/spr_ghost.yy",},
