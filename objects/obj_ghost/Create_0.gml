@@ -9,3 +9,4 @@ if (obj_controller.gc_is_ghost_killed(ghost_id)) {
 
 vspeed = hsp;
 
+audio_play_sound(snd_ghost, 1, true);

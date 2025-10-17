@@ -37,20 +37,30 @@ if (keyboard_check(ord("S")) && state != State.Attack){
 
 facing = image_xscale;
 
-/// secondary attack
+/// SECONDARY: lamp shine (press J)
 if (keyboard_check_pressed(ord("J")) && state != State.Attack) {
     state        = State.Attack;
-    sprite_index = spr_player_attack;
+    sprite_index = spr_player_attack_2; // optional toss/shine anim
     image_index  = 0;
-    image_speed  = 0.1;      // subimages per step
-    hit_pending  = true;
+    image_speed  = 0.4;
 
-	
-    // Fire the hitbox when we reach a target subimage:
-    var target_frame = 2;                      // <- put your desired frame here
-    var steps_until  = ceil((target_frame - image_index) / max(image_speed, 0.0001));
-    alarm[0] = max(1, steps_until);
+    // spawn the forward cone
+    var lamp = instance_create_layer(x, y, "Instances", obj_lamp_cone);
+    lamp.owner   = id;
+    lamp.facing  = image_xscale;         // +1 right / -1 left (side/top-down)
+    lamp.base_dir= (image_xscale >= 0) ? 0 : 180; // side-view default
+
+    // TOP-DOWN aim:
+    // if you rotate the player with image_angle, use:
+    // lamp.base_dir = image_angle;
+    // Or if you want it to use mouse aim:
+    // lamp.base_dir = point_direction(x, y, mouse_x, mouse_y);
+
+    // brief recovery so you don’t instantly snap to idle (optional)
+    alarm[2] = 60;
 }
+
+
 
 /// primary attack
 if (keyboard_check_pressed(ord("H")) && state != State.Attack) {

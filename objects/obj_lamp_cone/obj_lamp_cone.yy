@@ -1,14 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_ghost",
+  "%Name":"obj_lamp_cone",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"hit_box","path":"objects/hit_box/hit_box.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_ghost","path":"objects/obj_ghost/obj_ghost.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_ghost",
+  "name":"obj_lamp_cone",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,15 +27,13 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"hsp","filters":[],"listItems":[],"multiselect":false,"name":"hsp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":0,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ghost",
-    "path":"sprites/spr_ghost/spr_ghost.yy",
+    "name":"spr_cone_hit_box",
+    "path":"sprites/spr_cone_hit_box/spr_cone_hit_box.yy",
   },
   "spriteMaskId":null,
   "visible":true,
