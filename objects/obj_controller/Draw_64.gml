@@ -31,9 +31,9 @@ draw_text(pad, dy + 56,    "Shards: " + shards_str);
 
 if (global.godMode) {
     draw_set_color(c_yellow);
-    draw_text(16, 80, "GOD MODE: " + string(round(godMode_timer / room_speed)) + "s");
+    draw_text(16, 150, "GOD MODE: " + string(round(godMode_timer / room_speed)) + "s");
 } else {
     draw_set_color(c_white);
-    draw_text(16, 80, "GOD MODE: OFF");
+    draw_text(16, 150, "GOD MODE: OFF");
 }
 
