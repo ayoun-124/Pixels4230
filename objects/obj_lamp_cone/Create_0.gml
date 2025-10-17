@@ -21,3 +21,6 @@ require_los = true;
 // Collision classes
 enemy_parent = obj_ghost;  // set to your enemy parent or obj_enemy
 solid_obj    = hit_box;  // used for line-of-sight
+
+
+alarm[0] = room_speed;
