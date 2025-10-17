@@ -17,7 +17,7 @@ draw_rectangle(pad, pad, pad + bar_w * (hp/hpm), pad + bar_h, false);
 // --- Labels
 draw_set_color(c_white);
 var dy = pad + bar_h + 6;
-draw_text(pad, dy,         "Items:  " + string(global.gc.items_collected));
+draw_text(pad, dy,         "Health:  " + string(global.gc.health));
 draw_text(pad, dy + 28,    "Ghosts: " + string(global.gc.ghosts_killed));
 
 // Shards counter as “1/5”

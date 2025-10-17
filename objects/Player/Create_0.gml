@@ -1,6 +1,6 @@
 
 global.player = id;
-global.health = 100;
+
 hp = 100
 
 /// obj_player: Create
@@ -29,3 +29,9 @@ dir_y = 0;
 
 // (optional) i-frames timer if you want invulnerability during dash
 invul_timer = 0;
+
+
+touching_enemy_prev = false;  // were we touching an enemy last step?
+hurt_knock = 10;               // knockback speed (px/step)
+push_out_steps = 100;          // max pixels to nudge out of overlap
+
