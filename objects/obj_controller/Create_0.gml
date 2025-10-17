@@ -6,7 +6,8 @@ global.gc = {
     health: 100,
     items_collected: 0,
     ghosts_killed: 0,
-    health_max: 100
+    health_max: 100,
+	
 };
 
 global.game = {
