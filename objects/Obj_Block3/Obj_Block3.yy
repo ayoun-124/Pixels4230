@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Block8",
+  "%Name":"Obj_Block3",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Block8",
+  "name":"Obj_Block3",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

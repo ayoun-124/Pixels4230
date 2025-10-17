@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Block9",
-  "eventList":[],
+  "%Name":"Obj_Block4",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Obj_Block9",
+  "name":"Obj_Block4",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -32,5 +34,5 @@
     "path":"sprites/Spr_Block/Spr_Block.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

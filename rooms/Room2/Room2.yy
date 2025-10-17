@@ -19,11 +19,13 @@
     {"name":"inst_21D06F09","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_3C9621F9","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_7CFE049A","path":"rooms/Room2/Room2.yy",},
+    {"name":"inst_5CECF9D9","path":"rooms/Room2/Room2.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances_1","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_35EACD69","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_35EACD69","objectId":{"name":"Obj_Block5","path":"objects/Obj_Block5/Obj_Block5.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3808.0,"y":672.0,},
+        {"$GMRInstance":"v2","%Name":"inst_5CECF9D9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5CECF9D9","objectId":{"name":"Obj_Block3","path":"objects/Obj_Block3/Obj_Block3.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.095338315,"scaleX":23.0,"scaleY":1.0,"x":1696.0,"y":0.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_8_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_8_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":135,"SerialiseWidth":240,"TileCompressedData":[
           -100,-2147483648,-13,0,-33,-2147483648,-13,0,-181,-2147483648,-13,0,-33,-2147483648,-13,0,-154,-2147483648,

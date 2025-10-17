@@ -41,3 +41,26 @@ function gc_is_ghost_killed(key) {
 function gc_reset_run() { // call when starting a new game/run
     ds_map_clear(global.gc.killed_ghosts);
 }
+
+
+
+
+
+global.gc.room_pos = ds_map_create();   // room_name -> { x:..., y:... }
+
+// Helpers
+function gc_pos_key(_room) { return room_get_name(_room); }
+
+function gc_save_player_pos(_player) {
+    var k = gc_pos_key(room); // current room you're leaving
+	ds_map_replace(global.gc.room_pos, k, {x: _player.x, y: _player.y});
+}
+
+function gc_try_restore_player_pos(_player) {
+    var k = gc_pos_key(room); // room you're entering
+    var p = global.gc.room_pos[? k];
+    if (is_undefined(p)) return false;
+    _player.x = p.x;
+	_player.y = p.y;
+    return true;
+}
