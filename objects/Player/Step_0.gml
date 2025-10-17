@@ -62,6 +62,7 @@ if (keyboard_check_pressed(ord("H")) && state != State.Attack) {
 
 	audio_play_sound(snd_swing, 1, false);
 	alarm[1] = room_speed / 2;
+	
 	//delay hitbox for swing animation
     var delay_seconds = 0.50;
     var fps_target    = game_get_speed(gamespeed_fps);

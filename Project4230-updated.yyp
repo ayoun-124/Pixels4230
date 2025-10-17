@@ -47,6 +47,7 @@
     {"id":{"name":"Obj_Block8","path":"objects/Obj_Block8/Obj_Block8.yy",},},
     {"id":{"name":"Obj_Block9","path":"objects/Obj_Block9/Obj_Block9.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
+    {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"obj_ghost","path":"objects/obj_ghost/obj_ghost.yy",},},
     {"id":{"name":"obj_ghost2","path":"objects/obj_ghost2/obj_ghost2.yy",},},
     {"id":{"name":"obj_player_hitbox","path":"objects/obj_player_hitbox/obj_player_hitbox.yy",},},
