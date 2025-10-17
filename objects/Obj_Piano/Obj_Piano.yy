@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Spr_Piano",
+    "path":"sprites/Spr_Piano/Spr_Piano.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
