@@ -5,8 +5,6 @@ var friction1 = 0.2;
 
 
 
-
-
 var h = 0;
 var v = 0;
 if (keyboard_check(ord("A")) && state != State.Attack){
@@ -62,7 +60,7 @@ if (keyboard_check_pressed(ord("J")) && state != State.Attack) {
 
 
 
-/// primary attack
+/// primary attack (press H)
 if (keyboard_check_pressed(ord("H")) && state != State.Attack) {
     state        = State.Attack;
     sprite_index = spr_player_attack;
@@ -172,6 +170,8 @@ vspeed = clamp(vspeed + v * accel, -max_speed, max_speed);
 if (h == 0) hspeed = lerp(hspeed, 0, friction1);
 if (v == 0) vspeed = lerp(vspeed, 0, friction1);
 
+
+//go back to idle if no movement
 if (h == 0 && v == 0 && state != State.Attack){
 	sprite_index = spr_player_idle;
 }
