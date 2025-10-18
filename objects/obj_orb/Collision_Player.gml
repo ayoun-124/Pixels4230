@@ -1,0 +1,1 @@
+obj_controller.gc_take_damage(55);

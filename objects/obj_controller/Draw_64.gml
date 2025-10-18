@@ -36,6 +36,7 @@ draw_text(pad, dy,         "Health:  " + string(global.gc.health));
 // Shards counter as “1/5”
 var shards_str = string(global.gc.items_collected) + "/" + string(global.gc.items_needed);
 draw_text(pad, dy + 56,    "Shards: " + shards_str);
+draw_sprite(
 
 
 if (flash_timer > 0) {
