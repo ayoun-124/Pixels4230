@@ -6,11 +6,14 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 
 // Build once (e.g., in controller Create) and reuse:
-if (!variable_global_exists("hp_sprites")) {
+
     global.hp_sprites = [
         spr_hp3, spr_hp2, spr_hp1, spr_hp0
     ];
-}
+	
+	global.hp_boss_sprites = [
+        spr_hp_boss3, spr_hp_boss2, spr_hp_boss1, spr_hp_boss0
+    ];
 
 // --- Sprite health bar (array) ---
 var bx = pad, by = pad;
@@ -21,6 +24,18 @@ var spr    = global.hp_sprites[idx];
 
 draw_sprite(spr, 0, bx, by);
 
+
+//draw health bar for boss if exists
+if (instance_exists(obj_boss)){
+	
+	var dx = pad, dy = pad;
+	var step  = array_length(global.hp_boss_sprites) - 1;       // 10 here
+	var r  = clamp(global.boss.hp / max(1, 500), 0, 1);
+	var idx0    = round(r * step);                      // 0..steps
+	var bossSpr    = global.hp_boss_sprites[idx0];
+
+	draw_sprite(bossSpr, 0, room_width , room_height);
+}
 // for layout below:
 var bar_w = sprite_get_width(spr);
 var bar_h = sprite_get_height(spr);
