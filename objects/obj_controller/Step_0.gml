@@ -64,8 +64,7 @@ if (global.godMode) {
 }
 
 
-if (room == "Room6") {
-	audio_stop_sound(snd_background)
-	audio_play_sound(snd_final_boss, 1, true);
-
+if (room == Menu && keyboard_check_pressed(vk_space)){
+		room_goto_next()
 }
+	

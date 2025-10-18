@@ -66,6 +66,7 @@
     {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},},
     {"id":{"name":"Path2","path":"paths/Path2/Path2.yy",},},
     {"id":{"name":"Path3","path":"paths/Path3/Path3.yy",},},
+    {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},
@@ -105,6 +106,7 @@
     {"id":{"name":"spr_hp1","path":"sprites/spr_hp1/spr_hp1.yy",},},
     {"id":{"name":"spr_hp2","path":"sprites/spr_hp2/spr_hp2.yy",},},
     {"id":{"name":"spr_hp3","path":"sprites/spr_hp3/spr_hp3.yy",},},
+    {"id":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},},
     {"id":{"name":"spr_orb_1","path":"sprites/spr_orb_1/spr_orb_1.yy",},},
     {"id":{"name":"spr_orb_64","path":"sprites/spr_orb_64/spr_orb_64.yy",},},
     {"id":{"name":"spr_orb","path":"sprites/spr_orb/spr_orb.yy",},},
@@ -155,6 +157,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"StartRoom","path":"rooms/StartRoom/StartRoom.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
