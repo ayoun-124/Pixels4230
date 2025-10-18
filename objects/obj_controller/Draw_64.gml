@@ -30,7 +30,7 @@ if (instance_exists(obj_boss)){
 	
 	var dx = pad, dy = pad;
 	var step  = array_length(global.hp_boss_sprites) - 1;       // 10 here
-	var r  = clamp(global.boss.hp / max(1, 500), 0, 1);
+	var r  = clamp(global.boss.hp / max(1, boss_health), 0, 1);
 	var idx0    = round(r * step);                      // 0..steps
 	var bossSpr    = global.hp_boss_sprites[idx0];
 

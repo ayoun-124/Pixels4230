@@ -1,5 +1,5 @@
 global.boss = id
-hp = 500;
+hp = 1000;
 state = 0;
 target = global.player ?? noone;
 

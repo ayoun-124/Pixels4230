@@ -1,6 +1,7 @@
 
 enum GameState { Boot, Menu, Playing, Paused, Dialogue, GameOver }
 
+boss_health = global.boss.hp
 /// Persistent run state
 global.gc = {
     health: 100,
