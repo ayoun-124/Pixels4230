@@ -25,7 +25,7 @@ function gc_take_damage(n) {
     if (global.gc.health <= 0) {
         // handle game over here if you want
         // room_restart(); or set a GameOver state later
-		game_restart();
+		room_goto(LoseScreen);
     }
 }
 
@@ -67,4 +67,11 @@ if (global.godMode) {
 if (room == Menu && keyboard_check_pressed(vk_space)){
 		room_goto_next()
 }
+
+if (room == LoseScreen or room == WinScreen) {
+	
+	if (keyboard_check_pressed(ord("R"))) game_restart();
+	
+}
+
 	

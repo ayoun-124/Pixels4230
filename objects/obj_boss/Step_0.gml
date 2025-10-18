@@ -35,4 +35,9 @@ if (--shoot_cd <= 0 && is_array(orbs) && array_length(orbs) > 0 && global.game.o
 }
 
 
-if ( hp <= 0 ) instance_destroy();
+if ( hp <= 0 ){
+	
+	room_goto(WinScreen)
+	instance_destroy();
+	
+}
