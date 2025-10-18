@@ -1,5 +1,5 @@
 global.boss = id
-hp = 1000;
+hp = global.game.boss_health;
 state = 0;
 target = global.player ?? noone;
 

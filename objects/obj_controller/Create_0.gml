@@ -1,7 +1,7 @@
 
 enum GameState { Boot, Menu, Playing, Paused, Dialogue, GameOver }
 
-boss_health = global.boss.hp
+
 /// Persistent run state
 global.gc = {
     health: 100,
@@ -17,6 +17,7 @@ global.game = {
     score: 0,
     lives: 3,
 	orb_count: 0,
+	boss_health: 1000
     // any other global flags/data you want
 };
 
@@ -105,7 +106,7 @@ function dist_to_player() {
 //for damage splash screen
 flash_spr   = spr_red_hit;  // your overlay sprite
 flash_timer = 0;              // counts down
-flash_dur   = round(room_speed * 2.00); // ~0.08s flash
+flash_dur   = round(room_speed * 3.00); // ~0.08s flash
 flash_max_a = 0.7;            // peak opacity
 
 

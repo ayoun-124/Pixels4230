@@ -14,8 +14,8 @@
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_boss_orb",
-    "path":"objects/obj_boss_orb/obj_boss_orb.yy",
+    "name":"obj_enemy",
+    "path":"objects/obj_enemy/obj_enemy.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

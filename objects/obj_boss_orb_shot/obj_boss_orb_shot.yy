@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_orb_64",
-    "path":"sprites/spr_orb_64/spr_orb_64.yy",
+    "name":"spr_orb_1",
+    "path":"sprites/spr_orb_1/spr_orb_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

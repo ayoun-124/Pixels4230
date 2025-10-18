@@ -29,9 +29,7 @@ if (--shoot_cd <= 0 && is_array(orbs) && array_length(orbs) > 0 && global.game.o
         b.vx     = lengthdir_x(8, dir);
         b.vy     = lengthdir_y(8, dir);
         b.damage = 8;
-        // match orb visuals (optional)
-        b.sprite_index = src.sprite_index;
-        b.mask_index   = src.mask_index;
+        
     }
     shoot_cd = irandom_range(shoot_cd_min, shoot_cd_max);
 }
