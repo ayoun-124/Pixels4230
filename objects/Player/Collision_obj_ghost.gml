@@ -7,7 +7,5 @@ if ( state == State.Attack ){
 	obj_controller.gc_add_ghost_kill(1);
 	instance_destroy(other);
 }else {
-	instance_destroy()
-	//restart game
-	game_restart()
+	obj_controller.gc_take_damage(10)
 }

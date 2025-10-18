@@ -11,3 +11,6 @@ if (instance_exists(Player)) {
 
 x = clamp(x, 0, room_width)
 y = clamp(y, 0, room_height)
+
+
+if (x==room_width or y==room_height) direction *= -1;

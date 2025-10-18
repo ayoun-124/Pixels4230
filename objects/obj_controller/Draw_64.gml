@@ -31,7 +31,7 @@ var bar_h = sprite_get_height(spr);
 draw_set_color(c_white);
 var dy = pad + bar_h + 6;
 draw_text(pad, dy,         "Health:  " + string(global.gc.health));
-draw_text(pad, dy + 28,    "Ghosts: " + string(global.gc.ghosts_killed));
+//draw_text(pad, dy + 28,    "Ghosts: " + string(global.gc.ghosts_killed));
 
 // Shards counter as “1/5”
 var shards_str = string(global.gc.items_collected) + "/" + string(global.gc.items_needed);

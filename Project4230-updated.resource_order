@@ -58,6 +58,7 @@
     {"name":"spr_hp1","order":37,"path":"sprites/spr_hp1/spr_hp1.yy",},
     {"name":"spr_hp2","order":38,"path":"sprites/spr_hp2/spr_hp2.yy",},
     {"name":"spr_hp3","order":39,"path":"sprites/spr_hp3/spr_hp3.yy",},
+    {"name":"spr_orb_64","order":40,"path":"sprites/spr_orb_64/spr_orb_64.yy",},
     {"name":"spr_orb","order":34,"path":"sprites/spr_orb/spr_orb.yy",},
     {"name":"Spr_Piano","order":31,"path":"sprites/Spr_Piano/Spr_Piano.yy",},
     {"name":"spr_player_attack_2","order":33,"path":"sprites/spr_player_attack_2/spr_player_attack_2.yy",},
