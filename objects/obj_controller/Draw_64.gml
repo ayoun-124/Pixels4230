@@ -30,13 +30,17 @@ var bar_h = sprite_get_height(spr);
 // --- Labels
 draw_set_color(c_white);
 var dy = pad + bar_h + 6;
-draw_text(pad, dy,         "Health:  " + string(global.gc.health));
+//draw_text(pad, dy,         "Health:  " + string(global.gc.health));
 //draw_text(pad, dy + 28,    "Ghosts: " + string(global.gc.ghosts_killed));
 
+
 // Shards counter as “1/5”
-var shards_str = string(global.gc.items_collected) + "/" + string(global.gc.items_needed);
-draw_text(pad, dy + 56,    "Shards: " + shards_str);
-draw_sprite(
+//var shards_str = string(global.gc.items_collected) + "/" + string(global.gc.items_needed);
+//draw_text(pad, dy + 56,    "Shards: " + shards_str);
+
+global.shard_spr = [ spr_shard_0, spr_shard_1, spr_shard_2, spr_shard_3, spr_shard_4, spr_shard_5 ]
+var spr2 = global.shard_spr[@ min(global.gc.items_collected, global.gc.items_needed)]
+draw_sprite(spr2, 0, pad, dy + 56);
 
 
 if (flash_timer > 0) {
