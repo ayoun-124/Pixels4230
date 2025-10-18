@@ -184,12 +184,12 @@ y = clamp(y, bbox_top, room_height - 100);
 
 
 // Are we touching any enemy this step?
-var touching = place_meeting(x, y, obj_ghost);
+var touching = place_meeting(x, y, obj_enemy);
 
 // Collision ENTER: touching now, but not last step
 if (touching && !touching_enemy_prev) {
     // Find one enemy we're overlapping (nearest is fine)
-    var e = instance_place(x, y, obj_ghost);
+    var e = instance_place(x, y, obj_enemy);
     if (e != noone) {
         // Apply damage ONCE on enter
         obj_controller.gc_take_damage(10);
@@ -201,7 +201,7 @@ if (touching && !touching_enemy_prev) {
 
         // Push out so masks separate immediately (no re-trigger while stuck)
         var i = 0;
-        while (place_meeting(x, y, obj_ghost) && i < push_out_steps) {
+        while (place_meeting(x, y, obj_enemy) && i < push_out_steps) {
             x += lengthdir_x(1, ang);
             y += lengthdir_y(1, ang);
             i++;

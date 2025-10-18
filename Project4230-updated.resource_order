@@ -14,6 +14,7 @@
     {"name":"obj_boss_orb","order":24,"path":"objects/obj_boss_orb/obj_boss_orb.yy",},
     {"name":"obj_boss","order":21,"path":"objects/obj_boss/obj_boss.yy",},
     {"name":"obj_controller","order":18,"path":"objects/obj_controller/obj_controller.yy",},
+    {"name":"obj_enemy","order":27,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"obj_ghost","order":5,"path":"objects/obj_ghost/obj_ghost.yy",},
     {"name":"obj_ghost2","order":17,"path":"objects/obj_ghost2/obj_ghost2.yy",},
     {"name":"Obj_ghost3","order":24,"path":"objects/Obj_ghost3/Obj_ghost3.yy",},
