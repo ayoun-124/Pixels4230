@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_rectangular_frame",
-    "path":"sprites/spr_rectangular_frame/spr_rectangular_frame.yy",
+    "name":"spr_oval_frame",
+    "path":"sprites/spr_oval_frame/spr_oval_frame.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_rectangular_frame",
+  "%Name":"obj_boxes",
   "eventList":[],
   "managed":true,
-  "name":"obj_rectangular_frame",
+  "name":"obj_boxes",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_rectangular_frame",
-    "path":"sprites/spr_rectangular_frame/spr_rectangular_frame.yy",
+    "name":"spr_boxes",
+    "path":"sprites/spr_boxes/spr_boxes.yy",
   },
   "spriteMaskId":null,
   "visible":true,

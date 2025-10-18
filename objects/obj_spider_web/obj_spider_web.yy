@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_spider_web",
+    "path":"sprites/spr_spider_web/spr_spider_web.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
