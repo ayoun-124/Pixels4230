@@ -5,5 +5,7 @@ persistent = true;
 global.currentMusic = noone;
 
 // Start normal background music
-global.currentMusic = audio_play_sound(snd_background, 1, true);
+global.currentMusic = snd_background
+audio_play_sound(snd_background, 1, true);
 global.currentTrackName = "background";
+
